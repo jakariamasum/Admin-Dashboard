@@ -88,7 +88,7 @@ const Sidebar = () => {
           </li>
           <li className="mb-4 flex items-center">
             <Link
-              to="/email"
+              to="/"
               onClick={closeMenu}
               className="flex gap-1 items-center"
             >
@@ -98,7 +98,7 @@ const Sidebar = () => {
           </li>
           <li className="mb-4 flex items-center">
             <Link
-              to="/chat"
+              to="/"
               onClick={closeMenu}
               className="flex gap-1 items-center"
             >
@@ -108,7 +108,7 @@ const Sidebar = () => {
           </li>
           <li className="mb-4 flex items-center">
             <Link
-              to="/users"
+              to="/"
               onClick={closeMenu}
               className="flex gap-1 items-center"
             >
@@ -118,7 +118,7 @@ const Sidebar = () => {
           </li>
           <li className="mb-4 flex items-center">
             <Link
-              to="/bookmarks"
+              to="/"
               onClick={closeMenu}
               className="flex gap-1 items-center"
             >

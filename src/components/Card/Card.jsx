@@ -5,6 +5,8 @@ import { FiArrowUpRight } from "react-icons/fi";
 import { FaDollarSign } from "react-icons/fa";
 
 const Card = ({ bgColor, mainColor, bgText, price, percentage }) => {
+  console.log(bgColor, mainColor, bgText, price, percentage);
+
   return (
     <div className="bg-white relative p-4 rounded-[20px] flex flex-col gap-3 shadow">
       <h3
