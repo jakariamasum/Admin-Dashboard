@@ -11,7 +11,7 @@ import {
 
 const Sidebar = () => {
   return (
-    <div className="w-64 bg-[#171829] text-white h-screen p-5">
+    <div className="w-64 bg-[#171829] text-white  p-5">
       <h2 className="text-2xl font-bold mb-5">Tivo</h2>
       <ul>
         <li className="mb-4 flex items-center">
