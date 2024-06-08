@@ -1,11 +1,11 @@
 import { FaHome } from "react-icons/fa";
 import { FaAnglesRight } from "react-icons/fa6";
-import Card from "../Card/Card";
-import SellerTable from "../SellerTable/SellerTable";
-import ProductList from "../ProductList/ProductList";
-import GoalOverview from "../GoalOverview/GoalOverview";
-import RecentActivity from "../RecentActivity/RecentActivity";
-import OrderStatistics from "../OrderStatistics/OrderStatistics";
+import Card from "../../components/Card/Card";
+import SellerTable from "../../components/SellerTable/SellerTable";
+import ProductList from "../../components/ProductList/ProductList";
+import GoalOverview from "../../components/GoalOverview/GoalOverview";
+import RecentActivity from "../../components/RecentActivity/RecentActivity";
+import OrderStatistics from "../../components/OrderStatistics/OrderStatistics";
 
 const Dashboard = () => {
   return (
@@ -19,7 +19,6 @@ const Dashboard = () => {
         </span>
       </div>
 
-      {/* Cards */}
       <div className="grid gap-4 grid-cols-1 lg:grid-cols-4 mt-10">
         <div className="lg:col-span-3">
           <div className="grid gap-5 lg:grid-cols-3">
