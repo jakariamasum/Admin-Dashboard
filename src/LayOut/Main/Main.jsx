@@ -4,9 +4,9 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 
 const Main = () => {
   return (
-    <div className="flex">
+    <div className="flex flex-col md:flex-row">
       <Sidebar />
-      <div className="flex-1 ">
+      <div className="flex-1">
         <Navbar />
         <Outlet />
       </div>

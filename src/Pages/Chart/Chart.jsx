@@ -32,7 +32,7 @@ const Chart = () => {
 
   return (
     <div className="p-5">
-      <div className="flex justify-between">
+      <div className="flex flex-col lg:flex-row justify-between">
         <h1 className="text-3xl font-bold mb-5">Chart</h1>
         <span className="flex gap-1 items-center">
           <FaHome />
